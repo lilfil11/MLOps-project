@@ -2,6 +2,8 @@
 
 ### Структура репозитория
 
+```bash
+
 .
 ├── README.md
 ├── configs
@@ -22,8 +24,9 @@
 │   ├── infer.py
 │   ├── metrics.py
 │   └── train.py
-├── tree-script
 └── tree.txt
+
+```
 
 ### Формулировка задачи
 
