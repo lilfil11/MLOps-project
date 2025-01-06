@@ -3,34 +3,27 @@
 ### Структура репозитория
 
 .
-
 ├── README.md
-
 ├── configs
-
 ├── models
-
 │   ├── EfficientNetV2-S.pth
-
+│   └── EfficientNetV2-S.pth:Zone.Identifier
 ├── poetry.lock
-
 ├── pyproject.toml
-
-└── skin-diseases
-
-    ├── __init__.py
-
-
-    ├── constants.py
-
-    ├── dataset.py
-
-    ├── infer.py
-
-    ├── metrics.py
-
-    └── train.py
-
+├── requiremenets.txt
+├── skin-diseases
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── constants.cpython-310.pyc
+│   │   ├── dataset.cpython-310.pyc
+│   │   └── metrics.cpython-310.pyc
+│   ├── constants.py
+│   ├── dataset.py
+│   ├── infer.py
+│   ├── metrics.py
+│   └── train.py
+├── tree-script
+└── tree.txt
 
 ### Формулировка задачи
 
