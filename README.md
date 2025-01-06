@@ -1,30 +1,31 @@
-# Проект по распознованию кожного заболевания на изображении
+# Проект по распознаванию кожного заболевания на изображении
 
-### Структура репозитория
+### Структура проекта
 
 ```bash
 
 .
 ├── README.md
-├── configs
-├── models
-│   ├── EfficientNetV2-S.pth
-│   └── EfficientNetV2-S.pth:Zone.Identifier
+├── conf
+│   ├── config.yaml
+│   ├── dataset
+│   │   └── dataset.yaml
+│   ├── mlflow
+│   │   └── mlflow.yaml
+│   └── training
+│       └── training.yaml
+├── data
+│   ├── test.dvc
+│   └── train.dvc
 ├── poetry.lock
 ├── pyproject.toml
-├── requiremenets.txt
-├── skin-diseases
-│   ├── __init__.py
-│   ├── __pycache__
-│   │   ├── constants.cpython-310.pyc
-│   │   ├── dataset.cpython-310.pyc
-│   │   └── metrics.cpython-310.pyc
-│   ├── constants.py
-│   ├── dataset.py
-│   ├── infer.py
-│   ├── metrics.py
-│   └── train.py
-└── tree.txt
+└── skin-diseases
+    ├── __init__.py
+    ├── dataset.py
+    ├── infer.py
+    ├── metrics.py
+    └── train.py
+
 
 ```
 
