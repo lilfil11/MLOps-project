@@ -1,0 +1,6 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = s3://test-bucket-lilfil/dvc-data
+    access_key_id = MY_AWS_ACCESS_KEY
+    secret_access_key = MY_AWS_SECRET_KEY
