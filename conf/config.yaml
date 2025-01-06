@@ -1,0 +1,4 @@
+defaults:
+  - dataset: dataset
+  - training: training
+  - mlflow: mlflow
